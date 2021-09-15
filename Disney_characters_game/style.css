@@ -70,6 +70,67 @@ main {
     margin-bottom: 50px;
 }
 
+n#expandingMenu:hover {
+    visibility: visible;
+}
+
+#container {
+    width: 100%;
+}
+
+.rectangle {
+    float: left;
+    display: block;
+}
+
+#left {
+    width: 30%;
+    display: block;
+    text-align: center;
+}
+
+#likeDisney::before {
+    content: '0';
+    font-weight: bold;
+    position: absolute;
+    top: 39.5%;
+    left: 14%;
+    font-size: 1.3em;
+}
+
+#likeDisney::after {
+    content: '10';
+    font-weight: bold;
+    position: absolute;
+    top: 39.5%;
+    left: 22%;
+    font-size: 1.3em;
+}
+
+p {
+    margin: 20px;
+    font-size: 1.5em;
+
+}
+
+#mickey {
+    padding: 10px;
+    margin: 20px;
+    width: 312px;
+    height: 320px;
+    overflow: hidden;
+}
+
+#right {
+    width: 70%;
+    display: block;
+    text-align: center;
+}
+
+#love {
+    border: 2px solid red;
+    left: 160%;
+}
 
 footer {
     text-align: center;

@@ -28,6 +28,48 @@ body {
     background: url(images/backm.jpg);
     /*https://d23.com/mickey-mouse-phone-wallpapers-to-make-your-phone-a-mouse-terpiece/ */
 }
+main {
+    margin: 25px auto;
+    background-color: #fff;
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#expandingMenu {
+    visibility: hidden;
+    color: blue;
+}
+
+#topnav {
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    background-color: red;
+    margin-left: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.subMenu {
+    display: block;
+    width: 200px;
+    height: 25px;
+    background-color: navy;
+    color: #fff;
+    border: 1.5px solid black;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.subMenu:last-child {
+    margin-bottom: 50px;
+}
+
 
 footer {
     text-align: center;

@@ -132,6 +132,43 @@ p {
     left: 160%;
 }
 
+#img2 {
+    text-align: center;
+}
+
+#info {
+
+    margin: 30px auto;
+    width: 90%;
+    border: 2px solid gray;
+    height: 480px;
+    padding: 20px;
+}
+
+#info_left {
+    width: 50%;
+    float: left;
+}
+
+#info_right {
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+#herox {
+    width: 500px;
+    height: 250px;
+}
+
+#drawHero {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid gray;
+    font-size: 1.1em;
+    width: 200px;
+}
+
 footer {
     text-align: center;
     color: #00ffff;

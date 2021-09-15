@@ -44,13 +44,37 @@
             <div id="img2"> <img id="love" src="images/wld.jpg" alt="We_love_Disney"></div>
             <!--mouse out https://magical-kingdoms.com/2017/04/06/why-we-love-disney/  -->
             <!--mouse on https://deadline.com/2020/07/rhode-island-residents-receive-state-checks-signed-by-mickey-mouse-and-walt-disney-1203001478/  -->
+            <button id="drawHero">What Disney character you will get</button>
+        </div>
+        <div style="clear: both"></div>
+        <div id="info">
+            <div id="info_left">
+                <h3>Character Name: <span id="name1"></span></h3>
+                <p><strong>Movie: </strong><span id="movie"></span></p>
+                <p><strong>Best Friend: </strong><span id="bestFriend"></span></p>
+                <p><strong>Main Nemesis:</strong> <span id="nemesis"></span></p>
+                <p><strong>Song Form Movie: </strong><span id="song"></span></p>
+                <p><strong>Lyrics form song:</strong><br><br><span id="lyrics"></span></p>
+            </div>
+            <div id="info_right">
+                <h4>Character</h4>
+                <div id="img1"> <img id="herox" src="images/hero0.jpg" alt="castle-hero"></div>
+                <!-- https://www.seekpng.com/ipng/u2q8i1r5w7t4r5t4_moana-maui-maui-moana/ -->
+                <!-- https://pngimage.net/aladdin-carpet-png-4/ -->
+                <!-- https://lilostitchexperimentos.fandom.com/es/wiki/Stitch_(626) -->
+                <!-- https://maditsmadfunny.fandom.com/wiki/Lightning_McQueen -->
+                <!-- https://cartoonica.fandom.com/wiki/Buzz_Lightyear -->
+                <div style="clear: both"></div>
+            </div>
 
         </div>
     </main>
     <footer>
         <p>&copy; Walt Disney, contact the web developer at tomasz.nowak@mycit.ie </p>
     </footer>
-     
+    <script>
+        document.getElementById("drawHero").onclick = characterInfo;
+    </script>
 </body>
 
 </html>

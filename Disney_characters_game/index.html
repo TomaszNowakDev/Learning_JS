@@ -14,13 +14,25 @@
         <header>
             <h1>Disney characters game</h1>
             <hr>
-
+            <nav>
+                <button onclick="navi()" onmouseout="naviOut()" onmouseover="navi()" id="topnav">Navigation</button>
+                <div class="hide" id="expandingMenu"> <a class="subMenu" href="https://www.imdb.com/search/title/?companies=co0008970" target="_blank">Disney on IMDB</a> <a class="subMenu" href="https://disney.co.uk/" target="_blank">Disney.com website</a></div>
+            </nav>
         </header>
+        <div class="rectangle" id="left">
+            <h3>How much do you like Disney?</h3>
+            <form action="#" onsubmit="return false;">
+                <label for="likeDisney"></label>
+                <input type="range" min="0" max="10" id="likeDisney" onchange="slide()">
+                <p>Feedback: <span id="opinion"></span></p>
+            </form>
+            <div><img id="mickey" onmouseout="mouseOut()" onmouseover="mouseOver()" src="images/Mickey_Mouse.png" alt="Mickey mouse"></div>
+        </div>
     </main>
     <footer>
         <p>&copy; Walt Disney, contact the web developer at tomasz.nowak@mycit.ie </p>
     </footer>
-    
+     
 </body>
 
 </html>
